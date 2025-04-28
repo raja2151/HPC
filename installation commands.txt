@@ -1,0 +1,21 @@
+installation commands :
+
+sudo apt update
+sudo apt upgrade
+sudo apt install build-essential
+gcc --version        # (if you want to check your GCC version)
+sudo apt install libomp-dev
+nano dfs.cpp
+g++ -fopenmp dfs.cpp -o dfs
+./dfs
+
+
+Running basic commands:
+cd Desktop 
+ls
+ls foldername 
+cd  Raj 
+g++ -o hpc hpc.cpp
+./hpc
+
+g++ -fopenmp -o hpc hpc.cpp
